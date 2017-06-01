@@ -14,26 +14,24 @@ img {
   border-style: solid;
 }
 
-h1, p {
+h1 {
   font-family: 'Barrio', cursive;
   font-size: 48px;
   text-align: center;
   color: #FFA400;
 }
 
-p {
-  text-align: inherit;
-
+.label {
+  font-family: 'Barrio', cursive;
+  font-size: 48px;
+  text-align: center;
+  color: #FFA400;
+  padding-left: 40vw;
 }
 
-.extra {
-    display: none;
+.label:after{
+    content:'Danke!';
 }
-
-p:hover .extra {
-    display: block;
-}
-
-p:hover {
-  color: blue;
+.label:hover:after{
+    content:'Thank You!';
 }
