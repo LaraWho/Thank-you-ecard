@@ -1,0 +1,39 @@
+body {
+  margin: auto;
+  background-color: #F4D03F;
+}
+
+img {
+  max-height: 60vh;
+  width: auto;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  border-width: 10px;
+  border-color: #FFA400;
+  border-style: solid;
+}
+
+h1, p {
+  font-family: 'Barrio', cursive;
+  font-size: 48px;
+  text-align: center;
+  color: #FFA400;
+}
+
+p {
+  text-align: inherit;
+
+}
+
+.extra {
+    display: none;
+}
+
+p:hover .extra {
+    display: block;
+}
+
+p:hover {
+  color: blue;
+}
